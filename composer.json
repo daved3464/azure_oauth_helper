@@ -1,0 +1,21 @@
+{
+    "name": "hollow3464/azure_oauth_helper",
+    "description": "Azure Oauth Helper",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Hollow3464\\AzureOauthHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Chamorro",
+            "email": "daved3464@gmail.com"
+        }
+    ],
+    "require": {
+        "thenetworg/oauth2-azure": "^2.1",
+        "league/oauth2-client": "^2.6",
+        "symfony/cache": "^6.1"
+    }
+}
