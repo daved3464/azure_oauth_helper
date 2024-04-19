@@ -1,10 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Hollow3464\AzureOauthHelper;
 
-use \Exception;
+use Exception;
 
-class TokenNotFoundException extends Exception
+final class TokenNotFoundException extends Exception
 {
     public function __construct()
     {

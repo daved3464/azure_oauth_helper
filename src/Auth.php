@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Hollow3464\AzureOauthHelper;
 
 use GuzzleHttp\Psr7\Uri;
@@ -8,8 +10,9 @@ use TheNetworg\OAuth2\Client\Provider\Azure as OauthProvider;
 use TheNetworg\OAuth2\Client\Token\AccessToken;
 use Symfony\Component\Cache\Adapter\AbstractAdapter as Cache;
 use Symfony\Component\Cache\CacheItem;
+use Exception;
 
-class Auth
+final class Auth
 {
     private string $login_domain = "login.microsoftonline.com";
     private string|null $authorization_code = null;
@@ -23,8 +26,7 @@ class Auth
         private AuthStrategy $auth_strategy,
         private OauthProvider $provider,
         private Cache $cache
-    ) {
-    }
+    ) {}
 
     /**
      * This function generates a request code URI for API auth
@@ -48,7 +50,7 @@ class Auth
         )->__toString();
     }
 
-    /** 
+    /**
      * This function retreives either a cached token or requests
      * MS for a new one
      */
@@ -58,7 +60,7 @@ class Auth
             return $cached_token->getToken();
         }
 
-        if (!$this->auth_strategy == AuthStrategy::AUTHORIZATION_CODE) {
+        if (!$this->auth_strategy === AuthStrategy::AUTHORIZATION_CODE) {
             throw new TokenNotFoundException("Error Processing Request", 1);
         }
 
@@ -78,7 +80,7 @@ class Auth
 
     private function getCachedToken(): AccessToken|null
     {
-        return $this->cache->get($this->cache_key, fn () => null);
+        return $this->cache->get($this->cache_key, fn() => null);
     }
 
     private function cacheToken(AccessToken $token)
@@ -93,7 +95,7 @@ class Auth
     private function retrieveWithAuthorizationCode(): AccessTokenInterface
     {
         if (!$this->authorization_code) {
-            throw new \Exception("No authorization code set", 1);
+            throw new Exception("No authorization code set", 1);
         }
 
         return $this->provider->getAccessToken('authorization_code', [

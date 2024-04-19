@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02fd8dd4e61c49b2468ca50d045c4308",
+    "content-hash": "df42a6d03b009fad6cdb0505309e6d17",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -282,16 +282,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.4.3",
+            "version": "2.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "67c26b443f348a51926030c83481b85718457d3d"
+                "reference": "0454e12ef0cd597ccd2adb036f7bda4e7fface66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/67c26b443f348a51926030c83481b85718457d3d",
-                "reference": "67c26b443f348a51926030c83481b85718457d3d",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/0454e12ef0cd597ccd2adb036f7bda4e7fface66",
+                "reference": "0454e12ef0cd597ccd2adb036f7bda4e7fface66",
                 "shasum": ""
             },
             "require": {
@@ -317,9 +317,6 @@
                 "bamarni-bin": {
                     "bin-links": true,
                     "forward-command": false
-                },
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -381,7 +378,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.4.3"
+                "source": "https://github.com/guzzle/psr7/tree/2.4.5"
             },
             "funding": [
                 {
@@ -397,20 +394,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-26T14:07:24+00:00"
+            "time": "2023-04-17T16:00:45+00:00"
         },
         {
             "name": "league/oauth2-client",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-client.git",
-                "reference": "2334c249907190c132364f5dae0287ab8666aa19"
+                "reference": "160d6274b03562ebeb55ed18399281d8118b76c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/2334c249907190c132364f5dae0287ab8666aa19",
-                "reference": "2334c249907190c132364f5dae0287ab8666aa19",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/160d6274b03562ebeb55ed18399281d8118b76c8",
+                "reference": "160d6274b03562ebeb55ed18399281d8118b76c8",
                 "shasum": ""
             },
             "require": {
@@ -465,9 +462,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/oauth2-client/issues",
-                "source": "https://github.com/thephpleague/oauth2-client/tree/2.6.1"
+                "source": "https://github.com/thephpleague/oauth2-client/tree/2.7.0"
             },
-            "time": "2021-12-22T16:42:49+00:00"
+            "time": "2023-04-16T18:19:15+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -877,16 +874,16 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v6.1.7",
+            "version": "v6.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "ee5d5b88162684a1377706f9c25125e97685ee61"
+                "reference": "c6a7f2a1c65c30678b82c1171ff99edbeb915be0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/ee5d5b88162684a1377706f9c25125e97685ee61",
-                "reference": "ee5d5b88162684a1377706f9c25125e97685ee61",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/c6a7f2a1c65c30678b82c1171ff99edbeb915be0",
+                "reference": "c6a7f2a1c65c30678b82c1171ff99edbeb915be0",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +950,7 @@
                 "psr6"
             ],
             "support": {
-                "source": "https://github.com/symfony/cache/tree/v6.1.7"
+                "source": "https://github.com/symfony/cache/tree/v6.1.11"
             },
             "funding": [
                 {
@@ -969,7 +966,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-28T16:23:08+00:00"
+            "time": "2023-01-20T17:44:30+00:00"
         },
         {
             "name": "symfony/cache-contracts",
@@ -1276,16 +1273,16 @@
         },
         {
             "name": "thenetworg/oauth2-azure",
-            "version": "v2.1.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TheNetworg/oauth2-azure.git",
-                "reference": "06fb2d620fb6e6c934f632c7ec7c5ea2e978a844"
+                "reference": "be204a5135f016470a9c33e82ab48785bbc11af2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheNetworg/oauth2-azure/zipball/06fb2d620fb6e6c934f632c7ec7c5ea2e978a844",
-                "reference": "06fb2d620fb6e6c934f632c7ec7c5ea2e978a844",
+                "url": "https://api.github.com/repos/TheNetworg/oauth2-azure/zipball/be204a5135f016470a9c33e82ab48785bbc11af2",
+                "reference": "be204a5135f016470a9c33e82ab48785bbc11af2",
                 "shasum": ""
             },
             "require": {
@@ -1294,6 +1291,9 @@
                 "firebase/php-jwt": "~3.0||~4.0||~5.0||~6.0",
                 "league/oauth2-client": "~2.0",
                 "php": "^7.1|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.6"
             },
             "type": "library",
             "autoload": {
@@ -1327,12 +1327,137 @@
             ],
             "support": {
                 "issues": "https://github.com/TheNetworg/oauth2-azure/issues",
-                "source": "https://github.com/TheNetworg/oauth2-azure/tree/v2.1.1"
+                "source": "https://github.com/TheNetworg/oauth2-azure/tree/v2.2.2"
             },
-            "time": "2022-06-23T10:35:36+00:00"
+            "time": "2023-12-19T12:10:48+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "laravel/pint",
+            "version": "v1.15.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "5f288b5e79938cc72f5c298d384e639de87507c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/5f288b5e79938cc72f5c298d384e639de87507c6",
+                "reference": "5f288b5e79938cc72f5c298d384e639de87507c6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "php": "^8.1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.52.1",
+                "illuminate/view": "^10.48.4",
+                "larastan/larastan": "^2.9.2",
+                "laravel-zero/framework": "^10.3.0",
+                "mockery/mockery": "^1.6.11",
+                "nunomaduro/termwind": "^1.15.1",
+                "pestphp/pest": "^2.34.5"
+            },
+            "bin": [
+                "builds/pint"
+            ],
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/",
+                    "Database\\Seeders\\": "database/seeders/",
+                    "Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Maduro",
+                    "email": "enunomaduro@gmail.com"
+                }
+            ],
+            "description": "An opinionated code formatter for PHP.",
+            "homepage": "https://laravel.com",
+            "keywords": [
+                "format",
+                "formatter",
+                "lint",
+                "linter",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/pint/issues",
+                "source": "https://github.com/laravel/pint"
+            },
+            "time": "2024-04-02T14:28:47+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "1.10.67",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "16ddbe776f10da6a95ebd25de7c1dbed397dc493"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/16ddbe776f10da6a95ebd25de7c1dbed397dc493",
+                "reference": "16ddbe776f10da6a95ebd25de7c1dbed397dc493",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-04-16T07:22:02+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
@@ -1340,5 +1465,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.6.0"
 }
